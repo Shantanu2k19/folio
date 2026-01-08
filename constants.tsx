@@ -1,10 +1,11 @@
 
-import { Experience, Project, NavItem } from './types';
+import { Experience, Project, NavItem, Photo } from './types';
 
 export const NAV_ITEMS: NavItem[] = [
   { id: 'about', label: 'About' },
   { id: 'experience', label: 'Experience' },
   { id: 'projects', label: 'Projects' },
+  { id: 'photos', label: 'Photos' },
 ];
 
 export const EXPERIENCES: Experience[] = [
@@ -56,4 +57,16 @@ export const PROJECTS: Project[] = [
     tech: ['WebSockets', 'Yjs', 'React', 'Lexical'],
     link: '#'
   }
+];
+
+export const PHOTOS: Photo[] = [
+  { id: '1', src: 'https://picsum.photos/400/500?random=10', alt: 'Photography 1' },
+  { id: '2', src: 'https://picsum.photos/400/500?random=11', alt: 'Photography 2' },
+  { id: '3', src: 'https://picsum.photos/400/500?random=12', alt: 'Photography 3' },
+  { id: '4', src: 'https://picsum.photos/400/500?random=13', alt: 'Photography 4' },
+  { id: '5', src: 'https://picsum.photos/400/500?random=14', alt: 'Photography 5' },
+  { id: '6', src: 'https://picsum.photos/400/500?random=15', alt: 'Photography 6' },
+  { id: '7', src: 'https://picsum.photos/400/500?random=16', alt: 'Photography 7' },
+  { id: '8', src: 'https://picsum.photos/400/500?random=17', alt: 'Photography 8' },
+  { id: '9', src: 'https://picsum.photos/400/500?random=18', alt: 'Photography 9' },
 ];

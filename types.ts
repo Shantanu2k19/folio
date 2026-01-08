@@ -20,3 +20,9 @@ export interface NavItem {
   id: string;
   label: string;
 }
+
+export interface Photo {
+  id: string;
+  src: string;
+  alt: string;
+}
