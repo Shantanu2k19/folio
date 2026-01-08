@@ -1,8 +1,4 @@
-# Modern Tech Portfolio
-
-A sleek, dark-themed developer portfolio featuring a spotlight effect, smooth scrolling, and responsive layout.
-
-## Run Locally
+dark-themed developer portfolio heavily inspired by Brittany Chiang's (https://github.com/bchiang7/v4) Awesome Design
 
 **Prerequisites:** Node.js
 
@@ -16,4 +12,4 @@ A sleek, dark-themed developer portfolio featuring a spotlight effect, smooth sc
    npm run dev
    ```
 
-The app will be available at `http://localhost:3000`
+`http://localhost:3000`

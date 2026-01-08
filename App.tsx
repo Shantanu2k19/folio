@@ -159,7 +159,7 @@ const App: React.FC = () => {
             </SectionWrapper>
 
             <SectionWrapper id="photos" title="Photos">
-              <div className="grid grid-cols-3 gap-2">
+              <div className="grid grid-cols-3 gap-4">
                 {PHOTOS.map((photo, idx) => (
                   <PhotoCard key={photo.id} photo={photo} index={idx} />
                 ))}
