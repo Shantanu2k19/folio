@@ -6,7 +6,7 @@ export const Interests = () => (
   <section id="interests" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
     <SectionHeader title="Interests" />
     <div className="mb-8">
-      <h3 className="text-3xl font-extrabold tracking-tight text-slate-100 italic">
+      <h3 className="text-2xl font-extrabold tracking-tight text-slate-100 italic">
         Capturing moments, <span className="text-teal-300">calculating moves.</span>
       </h3>
       <p className="mt-2 text-slate-400">When I'm not coding, I'm usually over-analyzing a chess position or hunting for the perfect light with my camera.</p>

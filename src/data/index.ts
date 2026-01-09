@@ -81,19 +81,19 @@ export const IOT_PROJECTS: Project[] = [
 
 export const PHOTO_GALLERY_BATCH_1 = [
   [
-    '/media/1.jpeg',
     '/media/2.jpeg',
-    '/media/3.jpeg',
-  ],
-  [
+    '/media/11.jpeg',
     '/media/4.jpeg',
-    '/media/5.jpeg',
-    '/media/6.jpeg',
   ],
   [
-    '/media/7.jpeg',
-    '/media/8.jpeg',
-    '/media/9.jpeg',
+    '/media/5.jpeg',
+    '/media/3.jpeg',
+    '/media/12.jpeg',
+  ],
+  [
+    '/media/17.jpeg',
+    '/media/18.jpeg',
+    '/media/19.jpeg',
   ]
 ];
 
