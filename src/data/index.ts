@@ -81,19 +81,19 @@ export const IOT_PROJECTS: Project[] = [
 
 export const PHOTO_GALLERY_BATCH_1 = [
   [
-    'https://images.unsplash.com/photo-1529699211952-734e80c4d42b?q=80&w=800&auto=format&fit=crop', // Chess
-    'https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=800&auto=format&fit=crop', // Tech/Photography
-    'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800&auto=format&fit=crop', // Camera
+    '/media/1.jpeg',
+    '/media/2.jpeg',
+    '/media/3.jpeg',
   ],
   [
-    'https://images.unsplash.com/photo-1528819622765-d6bcf132f793?q=80&w=800&auto=format&fit=crop', // Chess moves
-    'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800&auto=format&fit=crop', // Mountains
-    'https://images.unsplash.com/photo-1511140592763-f3b3009681ad?q=80&w=800&auto=format&fit=crop', // Lenses
+    '/media/4.jpeg',
+    '/media/5.jpeg',
+    '/media/6.jpeg',
   ],
   [
-    'https://images.unsplash.com/photo-1586165361295-7834208a17a4?q=80&w=800&auto=format&fit=crop', // Minimalist chess
-    'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?q=80&w=800&auto=format&fit=crop', // Street photog
-    'https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=800&auto=format&fit=crop', // Peaks
+    '/media/7.jpeg',
+    '/media/8.jpeg',
+    '/media/9.jpeg',
   ]
 ];
 

@@ -5,7 +5,7 @@ interface PhotoGridProps {
 export const PhotoGrid = ({ columns }: PhotoGridProps) => (
   <div className="grid grid-cols-3 gap-3 md:gap-5 items-start w-full px-4 lg:px-8">
     {columns.map((col, colIdx) => {
-      const columnStyle = colIdx === 1 ? 'lg:-translate-y-10' : colIdx === 2 ? 'lg:translate-y-12' : '';
+      const columnStyle = colIdx === 1 ? 'lg:-translate-y-10' : colIdx === 2 ? 'lg:translate-y-4' : '';
       return (
         <div key={colIdx} className={`relative flex flex-col gap-4 md:gap-6 transition-all duration-1000 ease-in-out hover:z-30 ${columnStyle}`}>
           {col.map((url, imgIdx) => (
