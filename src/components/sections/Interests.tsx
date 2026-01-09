@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, ArrowLeft } from 'lucide-react';
 import { SectionHeader } from '../ui/SectionHeader';
 import { PhotoGrid } from '../ui/PhotoGrid';
 import { PHOTO_GALLERY_BATCH_1, PHOTO_GALLERY_BATCH_2 } from '../../data';
@@ -47,7 +47,17 @@ export const Interests = () => {
           className="inline-flex items-center font-medium leading-tight text-slate-200 group disabled:opacity-50 disabled:cursor-not-allowed"
         >
           <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none flex items-center gap-2">
-            {showMore ? 'Show previous' : 'View more'} <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
+            {showMore ? (
+              <>
+                <ArrowLeft size={16} className="transition-transform group-hover:-translate-x-1" />
+                Previous shots
+              </>
+            ) : (
+              <>
+                More shots
+                <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
+              </>
+            )}
           </span>
         </button>
       </div>
