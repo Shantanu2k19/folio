@@ -97,3 +97,21 @@ export const PHOTO_GALLERY_BATCH_1 = [
   ]
 ];
 
+export const PHOTO_GALLERY_BATCH_2 = [
+  [
+    '/media/1.jpeg',
+    '/media/6.jpeg',
+    '/media/7.jpeg',
+  ],
+  [
+    '/media/8.jpeg',
+    '/media/9.jpeg',
+    '/media/10.jpeg',
+  ],
+  [
+    '/media/13.jpeg',
+    '/media/15.jpeg',
+    '/media/16.jpeg',
+  ]
+];
+
