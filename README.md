@@ -13,3 +13,12 @@ dark-themed developer portfolio heavily inspired by Brittany Chiang's (https://g
    ```
 
 `http://localhost:3000`
+
+
+nvm --version
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+source ~/.bashrc
+
+nvm use 22
