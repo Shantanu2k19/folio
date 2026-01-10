@@ -27,7 +27,7 @@ export const ProjectItem = ({ project }: ProjectItemProps) => (
       </div>
       <div className="z-10 sm:order-1 sm:col-span-2">
         <div className="aspect-video w-full overflow-hidden rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 bg-slate-800">
-          <img src={project.imageUrl} alt={project.title} className="h-full w-full object-cover transition-transform group-hover:scale-105 duration-500" />
+          <img src={project.imageUrl} alt={project.title} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.2]" />
         </div>
       </div>
     </div>

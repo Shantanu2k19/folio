@@ -25,7 +25,7 @@ export const Header = ({ activeSection }: HeaderProps) => (
       <SocialIcon href="https://github.com/Shantanu2k19" icon={Github} title="GitHub" />
       <SocialIcon href="https://www.linkedin.com/in/shantanusingh2k19/" icon={Linkedin} title="LinkedIn" />
       <SocialIcon href="https://leetcode.com/u/shan2k19/" icon={Code2} title="LeetCode" />
-      <SocialIcon href="https://twitter.com" icon={Twitter} title="Twitter" />
+      {/* <SocialIcon href="https://twitter.com" icon={Twitter} title="Twitter" /> */}
       <SocialIcon href="https://www.youtube.com/@shan_singh" icon={Youtube} title="YouTube" />
       <SocialIcon href="https://lichess.org/@/zodiac2000" icon={ChessIcon} title="Lichess" />
     </ul>
