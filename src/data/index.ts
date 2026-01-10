@@ -53,7 +53,7 @@ export const SOFTWARE_PROJECTS: Project[] = [
     technologies: ['Next.js', 'Django', 'OpenCV', 'Tesseract OCR', 'LLMs'],
     link: 'https://mymedic.vercel.app/',
     imageUrl:
-      'https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=400&auto=format&fit=crop',
+      '/projects/mymedic.png',
   },
   {
     title: 'MeTube',
@@ -61,7 +61,7 @@ export const SOFTWARE_PROJECTS: Project[] = [
       'A web app that keeps track of your YouTube playlists and lets you know when videos, songs, or mixes quietly disappear, so you never lose content without realizing it.',
     technologies: ['Django', 'Python', 'YouTube Data API', 'JavaScript'],
     link: 'http://shantanu2k22.pythonanywhere.com/ ',
-    imageUrl: '/projects/metube.jpeg',
+    imageUrl: '/projects/metube.png',
   },
   {
     title: 'Canteen 2.0',
@@ -70,7 +70,7 @@ export const SOFTWARE_PROJECTS: Project[] = [
     technologies: ['Django', 'Python', 'MySQL', 'JavaScript', 'HTML/CSS'],
     link: 'https://canteen.pythonanywhere.com/ ',
     imageUrl:
-      'https://images.unsplash.com/photo-1551288049-bbbda536639a?q=80&w=400&auto=format&fit=crop',
+      '/projects/canteen.png',
   },
 ];
 
@@ -82,7 +82,7 @@ export const IOT_PROJECTS: Project[] = [
     technologies: ['Raspberry Pi', 'NodeMCU', 'Python', 'MQTT', 'Rasa'],
     link: 'https://github.com/Shantanu2k19/ai_ass',
     imageUrl:
-      'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=400&auto=format&fit=crop',
+      '/projects/aiass.jpeg',
   },
   {
     title: 'Automobile Tracker & Safety Device',
@@ -91,7 +91,7 @@ export const IOT_PROJECTS: Project[] = [
     technologies: ['Arduino', 'GPS Module', 'Accelerometer', 'SIM800L'],
     link: 'https://www.youtube.com/watch?v=TGFsjec14Uc&t=14s',
     imageUrl:
-      'projects/track.png',
+      'projects/track2.png',
   },
   {
     title: 'AI Attendance System',
@@ -100,16 +100,16 @@ export const IOT_PROJECTS: Project[] = [
     technologies: ['Raspberry Pi', 'Python', 'Computer Vision'],
     link: 'https://rtai.pythonanywhere.com/',
     imageUrl:
-      'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=400&auto=format&fit=crop',
+      '/projects/rtai.png',
   },
   {
-    title: 'LiFi Technology (Proof of Concept)',
+    title: 'LiFi Technology',
     description:
       'A proof-of-concept project exploring how data can be transferred using light instead of radio waves, experimenting with lasers and receivers while documenting real-world limitations.',
     technologies: ['Laser', 'IR LED', 'IR Receiver', 'Arduino'],
     link: 'https://www.youtube.com/watch?v=N_McKCI6kbA&t=116s',
     imageUrl:
-      'lifi.jpeg',
+      'projects/lifi.jpeg',
   },
 ];
 

@@ -26,7 +26,7 @@ export const Interests = () => {
         <h3 className="text-2xl font-extrabold tracking-tight text-slate-100 italic">
           Capturing moments, <span className="text-teal-300">calculating moves.</span>
         </h3>
-        <p className="mt-2 text-slate-400">When I'm not coding, I'm usually over-analyzing a chess position or hunting for the perfect light with my camera.</p>
+        <p className="mt-2 text-slate-400">When I'm not coding, I'm usually playing chess or hunting for the perfect light with my camera.</p>
       </div>
       
       <div className="overflow-hidden relative w-full pt-20 pb-8 -mx-6 md:-mx-12 lg:mx-0 lg:w-auto">
