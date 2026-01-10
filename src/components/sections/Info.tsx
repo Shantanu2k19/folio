@@ -25,11 +25,11 @@ export const Info = () => (
           <Mail size={16} /> Contact
         </h3>
         <div className="space-y-3 text-sm">
-          <a href="mailto:shansingh2k19@gmail.com" className="flex items-center gap-3 hover:text-teal-300 transition-colors">
-            <Mail size={14} /> shansingh2k19@gmail.com
+          <a href="mailto:example@gmail.com" className="flex items-center gap-3 hover:text-teal-300 transition-colors">
+            <Mail size={14} /> example@gmail.com
           </a>
           <p className="flex items-center gap-3">
-            <Phone size={14} /> +91-8368877045
+            <Phone size={14} /> +91-1111111111
           </p>
           <p className="flex items-center gap-3">
             <MapPin size={14} /> Gurugram / Noida, India
